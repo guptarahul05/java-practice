@@ -10,7 +10,7 @@ public class countNumbers {
 		sc.close();
 		countNumbers cn = new countNumbers();
 		result= cn.countDigits(a,result);
-		System.out.println(result);
+		System.out.println("Count is "+result);
 	}
 	public int countDigits(int a, int result) {
 		if(a==0) {
